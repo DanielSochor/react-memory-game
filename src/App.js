@@ -12,6 +12,11 @@ class App extends Component {
     highscore: 0
   }
 
+  clickCounter = (id) => {
+    return console.log(id);
+
+  }
+
 
   render() {
     return (
@@ -19,6 +24,7 @@ class App extends Component {
         <Header score={this.state.score} highscore={this.state.highscore}>React Memory Game</Header>
         {this.state.cards.map(card => (
           <Card
+            clickCounter={this.clickCounter}
             key={card.id}
             id={card.id}
             image={card.image}
