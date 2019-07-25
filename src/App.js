@@ -16,7 +16,7 @@ class App extends Component {
   render() {
     return (
       <Wrapper>
-        <Header score={this.state.score} highscore={this.state.highscore}>Clicky Game</Header>
+        <Header score={this.state.score} highscore={this.state.highscore}>React Memory Game</Header>
         {this.state.cards.map(card => (
           <Card
             key={card.id}
