@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "name": "70RoadRunner",
+    "image": "https://scontent-sin6-2.cdninstagram.com/vp/f077285406602b667b8156f195b83887/5D64771A/t51.2885-15/e35/53833862_626320937829871_8420758079065177156_n.jpg?_nc_ht=scontent-sin6-2.cdninstagram.com&se=7&ig_cache_key=MjAwODA4NDQwODM2MzQzMDY0MQ%3D%3D.2",
+    "occupation": "Fry Cook",
+    "location": "A Pineapple Under the Sea"
+  },
+  {
+    "id": 2,
+    "name": "Barracuda",
+    "image": "https://scontent-ort2-2.cdninstagram.com/vp/4aabed6a7e1a496f5b42028aa21b35d3/5D7A6885/t51.2885-15/e35/49651360_2499394223410801_6964218830858165532_n.jpg?_nc_ht=scontent-ort2-2.cdninstagram.com",
+    "occupation": "Restaurant Owner",
+    "location": "A Giant Anchor"
+  },
+  {
+    "id": 3,
+    "name": "DodgePickup",
+    "image": "https://pbs.twimg.com/media/DX3DsjIU0AAaZSG.jpg",
+    "occupation": "Cashier",
+    "location": "An Easter Island Head"
+  },
+  {
+    "id": 4,
+    "name": "FordMustangBoss429",
+    "image": "https://i.pinimg.com/originals/de/3d/36/de3d3647be2b648950b4e83783d625ef.jpg",
+    "occupation": "Boy Genius",
+    "location": "A Secret Laboratory"
+  },
+  {
+    "id": 5,
+    "name": "PettyPlymouthSuperBird",
+    "image": "https://i.pinimg.com/originals/3a/23/72/3a237262e97f54a66fe6798b705f8b4e.jpg",
+    "occupation": "A Cowardly Dog",
+    "location": "Nowhere, Kansas"
+  },
+  {
+    "id": 6,
+    "name": "Challenger",
+    "image": "https://i.pinimg.com/originals/05/33/24/0533247dc91bf6662bd9630b9c5895c7.jpg",
+    "occupation": "Student",
+    "location": "Bluffington"
+  },
+  {
+    "id": 7,
+    "name": "69RingCharger",
+    "image": "https://i.pinimg.com/originals/ec/8d/c5/ec8dc53260417215302fc38a4f3d6e42.jpg",
+    "occupation": "Looney Toon",
+    "location": "A Rabbit Burrow"
+  },
+  {
+    "id": 8,
+    "name": "70SuperBee",
+    "image": "https://scontent-lga3-1.cdninstagram.com/vp/79fea0ce1184c0f26545dcb6655e4b58/5D7417BC/t51.2885-15/e35/52337642_2387431171479725_2956430275366403681_n.jpg?_nc_ht=scontent-lga3-1.cdninstagram.com&se=7&ig_cache_key=MTk5MjQxMzM0NDE2Mjk0Mzk2Nw%3D%3D.2",
+    "occupation": "Ladies Man",
+    "location": "Aron City"
+  },
+  {
+    "id": 9,
+    "name": "71RoadRunner",
+    "image": "https://scontent-frt3-2.cdninstagram.com/vp/c44565b0973e3413b4cf02c85efdc942/5D712F8C/t51.2885-15/e35/s1080x1080/58409391_869952150022116_7036447673917498756_n.jpg?_nc_ht=scontent-frt3-2.cdninstagram.com",
+    "occupation": "Adventurer",
+    "location": "California"
+  },
+  {
+    "id": 10,
+    "name": "Coronet",
+    "image": "https://scontent-sin6-1.cdninstagram.com/vp/802796336c7503245486b8afc4ad6548/5DA1D142/t51.2885-15/e35/55933756_316004195730922_2743603232486617778_n.jpg?_nc_ht=scontent-sin6-1.cdninstagram.com&se=7&ig_cache_key=MjAyNDI4NTY1NzY4OTQ5MTc0OQ%3D%3D.2&_nc_ig_catcb=1",
+    "occupation": "Cashier",
+    "location": "O-Town, California"
+  },
+  {
+    "id": 11,
+    "name": "MustangBoss302",
+    "image": "https://scontent-a-lax.cdninstagram.com/vp/403cf8f4a8e1738ca30bad6981bf8107/5D79146A/t51.2885-15/e35/61956017_421915328539257_6894484716686800467_n.jpg?_nc_ht=scontent-lga3-1.cdninstagram.com&se=7&ig_cache_key=MjA2MjU0MjM4NzU1MDU1MTA1Nw%3D%3D.2",
+    "occupation": "Superhero",
+    "location": "Earth"
+  },
+  {
+    "id": 12,
+    "name": "69RoadRunner",
+    "image": "https://scontent-lga3-1.cdninstagram.com/vp/303781ac2bc0a50f847fc969a5aae436/5DC972C5/t51.2885-15/e35/65467257_174996160182924_1555122015000996836_n.jpg?_nc_ht=scontent-lga3-1.cdninstagram.com",
+    "occupation": "Ahhhh! A Real Monster!",
+    "location": "Under a City Dump"
+  }
+]
