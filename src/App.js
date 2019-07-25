@@ -12,9 +12,15 @@ class App extends Component {
     highscore: 0
   }
 
-  clickCounter = (id) => {
-    return console.log(id);
-
+  clickCounter = id => {
+    console.log(id);
+    this.state.cards.find((id) => {
+      console.log("starting count: " + cards[id]);
+      cards[id].count = cards[id] + 1;
+      console.log("ending count: " + cards[id].count);
+      return cards[id].count
+    });
+    //this.state.cards.sort(() => Math.random() - 0.5)
   }
 
 
