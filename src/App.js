@@ -13,36 +13,63 @@ class App extends Component {
   }
 
   shuffleCards = () => {
-    console.log('suffle cards')
-    this.state.cards.sort(() => Math.random() - 0.5);
+    //console.log('pre shuffled cards: ');
+    //console.log(cards);
+    //console.log('suffle cards');
+    //var newCards = this.state.cards.sort(() => Math.random() - 0.5);
+    //console.log('shuffled array is: ' + newCards)
+    return this.setState([
+      this.cards = this.state.cards.sort(() => Math.random() - 0.5)
+    ]);
+    //console.log('post shuffled cards: ');
+    //console.log(cards);
+    //this.displayCards(newCards);
   }
 
   handleClick = (image_id) => {
-    if (cards[image_id].clicked){
-      console.log('has been clicked')
-    } else {
-      console.log('has not been clicked')
-      cards[image_id].clicked = true
+    //var image_id = id
+    console.log('clicked id: ' + image_id)
+    console.log('clicked card: ' + cards[image_id].id)
+    for (var i = 0; i < cards.length; i++) {
+      //console.log(cards[i].id, cards[i].clicked)
+      if (cards[image_id].id === image_id) {
+        console.log('clicked card is: ' + cards[image_id].id)
+      }
     }
-    console.log(cards)
-    this.shuffleCards()
+    if (cards[image_id].clicked) {
+      //console.log('has been clicked')
+      this.shuffleCards()
+    } else {
+      //console.log('has not been clicked')
+      cards[image_id].clicked = true
+      this.shuffleCards()
+    }
+    //this.displayCards()
   }
 
-render() {
-  return (
-    <Wrapper>
-      <Header score={this.state.score} highscore={this.state.highscore}>React Memory Game</Header>
-      {this.state.cards.map(card => (
-        <Card
-          handleClick={this.handleClick}
-          key={card.id}
-          id={card.id}
-          image={card.image}
-        />
-      ))}
-    </Wrapper>
-  );
-}
+  //displayCards = (Cards) => {
+  //console.log(Cards);
+  //for( var i=0; i<newCards.length; i++){
+  //   console.log(cards[i].id, newCards[i].clicked)
+  //}
+  //}
+  //CARS ARE DISPLAYING CORRECTLY
+
+  render() {
+    return (
+      <Wrapper>
+        <Header score={this.state.score} highscore={this.state.highscore}>React Memory Game</Header>
+        {this.state.cards.map(card => (
+          <Card
+            handleClick={this.handleClick}
+            key={card.id}
+            id={card.id}
+            image={card.image}
+          />
+        ))}
+      </Wrapper>
+    );
+  }
 }
 
 export default App;

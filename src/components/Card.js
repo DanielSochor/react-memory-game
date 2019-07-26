@@ -7,8 +7,11 @@ function Card(props) {
             <div className="img-container">
                 <img alt={props.name} src={props.image} />
             </div>
+            <div className="content">
+                <strong>Id:</strong> {props.id}
+            </div>
         </div>
-    )
+    );
 }
 
 export default Card;
