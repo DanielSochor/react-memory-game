@@ -28,10 +28,12 @@ class App extends Component {
     }
     if (card.clicked) {
       console.log('has been clicked')
+      this.state.score = 0;
       this.shuffleCards()
     } else {
       console.log('has not been clicked')
       card.clicked = true
+      this.state.score = this.state.score + 1;
       this.shuffleCards()
     }
   }
