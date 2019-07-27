@@ -26,22 +26,22 @@ class App extends Component {
     //this.displayCards(newCards);
   }
 
-  handleClick = (image_id) => {
+  handleClick = (clickedCardId) => {
     //var image_id = id
-    console.log('clicked id: ' + image_id)
-    console.log('clicked card: ' + cards[image_id].id)
+    console.log('clicked id: ' + clickedCardId)
+    console.log('clicked card: ' + cards[clickedCardId].id)
     for (var i = 0; i < cards.length; i++) {
       //console.log(cards[i].id, cards[i].clicked)
-      if (cards[image_id].id === image_id) {
-        console.log('clicked card is: ' + cards[image_id].id)
+      if (cards[clickedCardId].id === clickedCardId) {
+        console.log('clicked card is: ' + cards[clickedCardId].id)
       }
     }
-    if (cards[image_id].clicked) {
-      //console.log('has been clicked')
+    if (cards[clickedCardId].clicked) {
+      console.log('has been clicked')
       this.shuffleCards()
     } else {
-      //console.log('has not been clicked')
-      cards[image_id].clicked = true
+      console.log('has not been clicked')
+      cards[clickedCardId].clicked = true
       this.shuffleCards()
     }
     //this.displayCards()
