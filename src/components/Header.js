@@ -6,6 +6,9 @@ function Header(props) {
         <div className="header">
             <div className="title">{props.children}</div>
             <div className="scores">
+                Message: {props.message}
+            </div>
+            <div className="scores">
                 Score: {props.score} High Score: {props.highScore}
             </div>
         </div>

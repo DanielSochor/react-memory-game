@@ -10,6 +10,7 @@ class App extends Component {
     cards,
     score: 0,
     highScore: 0,
+    message: "Click a car to begin!",
   }
 
   shuffleCards = () => {
@@ -30,7 +31,8 @@ class App extends Component {
       console.log('has been clicked')
       this.shuffleCards()
       return this.setState({
-        score: 0
+        score: 0,
+        message: "You have already selected this car"
       })
     } else {
       console.log('has not been clicked')
@@ -41,7 +43,9 @@ class App extends Component {
       const newHighScore = newScore > highScore ? newScore : highScore;
       return this.setState({
         score: newScore,
-        highScore: newHighScore
+        highScore: newHighScore,
+        message: "You are correct"
+
       })
     }
   }
@@ -49,7 +53,7 @@ class App extends Component {
   render() {
     return (
       <Wrapper>
-        <Header score={this.state.score} highScore={this.state.highScore}>React Memory Game</Header>
+        <Header score={this.state.score} highScore={this.state.highScore} message={this.state.message}>React Memory Game</Header>
         {this.state.cards.map(card => (
           <Card
             handleClick={this.handleClick}
